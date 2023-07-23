@@ -19,8 +19,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get('http://localhost:8000')
 
         # Watch the title of page
-        self.assertIn('To-Do', self.browser.title)
-        self.fail('End the test!')
+        self.assertIn('Home Page', self.browser.title)
 
         # Add the element in list
 
